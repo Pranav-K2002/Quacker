@@ -1,4 +1,4 @@
-# **React.io App**
+# **Quacker App**
 
 **Technologies used:**
 
