@@ -77,7 +77,7 @@ export default function Post() {
         checkUser();
     }, [user,loading]);
 
-    return (<div className="my-20 p-12 shadow-lg rounded-md max-w-md mx-auto">
+    return (<div className="my-20 p-12 shadow-lg rounded-md max-w-md mx-auto dark:text-white">
 
         <form onSubmit={submitPost}>
             <h1 className="text-2xl font-bold">{post.hasOwnProperty("id") ? "Edit your post" : "Create a new post"}</h1>
@@ -86,7 +86,7 @@ export default function Post() {
                 <textarea
                     value={post.description}
                     onChange={(e) => setPost({ ...post, description: e.target.value })}
-                    className="bg-gray-800 h-48 w-full text-white rounded-lg p-2 text-sm min-h-min" placeholder="Enter text here"></textarea>
+                    className="bg-gray-800 h-48 w-full text-white rounded-lg p-2 text-sm min-h-min dark:bg-slate-600" placeholder="Enter text here"></textarea>
                 <p className={`text-cyan-500 font-medium text-sm pd-5 ${post.description.length > maxTextLen ? "text-red-500" : ""}`}>
                     {post.description.length}/{maxTextLen}
                 </p>
