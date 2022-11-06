@@ -41,7 +41,7 @@ export default function dashboard() {
     
 
     return (
-        <div>
+        <div className="dark:text-white">
             <h1>Your Posts:</h1>
             <div>
                 {
