@@ -7,7 +7,7 @@
 - React / Next JS
     - Helps in dynamic rendering
 - Tailwind CSS
-    - Helps in respoinsive design
+    - Helps in responsive design
 
 
 ---
