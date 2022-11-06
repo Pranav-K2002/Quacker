@@ -35,7 +35,7 @@ export default function Login() {
     },[route, user]);
 
     return (
-        <div className="shadow-xl max-w-lg mt-32 p-10 text-gray-700 rounded-lg border content-center">
+        <div className="shadow-xl max-w-lg m-32 p-10 text-gray-700 rounded-lg border content-center flex-row dark:text-white dark:border-slate-900">
             <h2 className="text-2xl font-medium">Join Today!</h2>
             <div className="py-4">
                 <h3 className="py-4">Sign in with one of the providers</h3>

@@ -54,14 +54,14 @@ export default function Details() {
         <Message
             {...routeData}>
         </Message>
-        <div className="my-4 mx-4">
-            <div className="flex gap-2">
+        <div className="my-4 mx-4 dark:text-white">
+            <div className="flex gap-2 ">
                 <input
                     onChange={(e) => setMessage(e.target.value)}
                     type="text"
                     value={message}
                     placeholder="Enter a comment..."
-                    className="bg-gray-800 rounded-sm text-white w-full text-sm p-2"
+                    className="bg-gray-800 rounded-sm text-white w-full text-sm p-2 dark:bg-slate-600 dark:text-white"
                 />
                 <button
                     onClick={submitMessage}
@@ -72,7 +72,7 @@ export default function Details() {
             <div className="py-6">
           <h2 className="font-bold">Comments</h2>
           {allMessage?.map((message) => (
-            <div className="bg-white p-4 my-4 border-2" key={message.time}>
+            <div className="bg-white p-4 my-4 rounded-lg border-2 dark:bg-slate-700 dark:border-0" key={message.time}>
               <div className="flex items-center gap-2 mb-4">
                 <img
                   className="w-10 rounded-full"

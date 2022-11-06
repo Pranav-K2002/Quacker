@@ -24,11 +24,11 @@ export default function Home() {
   },[]);
 
   return (
-    <div className='mx-4'>
+    <div className='mx-4 dark:text-white'>
       <Head>
-        <title>PnvGram</title>
+        <title>Quacker</title>
         <meta name="description" content="Social Media App by PNV" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon-32x32.ico" />
       </Head>
 
       <div className=' my-12 text-lg font-medium'>

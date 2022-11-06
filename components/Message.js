@@ -39,7 +39,7 @@ export default function Message({ children, avatar, username, description, times
 
 
     return (
-        <div className="bg-white p-8 rounded-lg border-2 shadow-sm my-5 mx-4">
+        <div className="bg-white p-8 rounded-lg border-1 shadow-sm my-5 mx-4 dark:bg-slate-700 dark:text-white">
             <div className="flex items-center gap-2">
                 <img class="rounded-full w-10" src={avatar} alt="" />
                 <h2 className="font-bold">{username}</h2>
