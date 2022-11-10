@@ -17,3 +17,8 @@
 - Can view posts without signing in
 - Comment on posts
 - Edit and delete your own posts
+
+---
+To DO:
+Fully Mobile Responsive
+Polishing UI
