@@ -20,5 +20,5 @@
 
 ---
 To DO:
-Fully Mobile Responsive
-Polishing UI
+- Fully Mobile Responsive
+- Polishing UI
